@@ -1,9 +1,29 @@
+body{
+  background-color: rgb(14, 5, 90);
+}
 
+h1, h2, h3, p {
+  color: white;
+}
 .nav-div div{
   display: flex;
   height: 5em;
   width: 5em;
   margin: 1em;
+}
+
+.nav-div a{
+  display: flex;
+  justify-content: space-around;  
+}
+.nav-div h1{   
+  margin-left: 1m;
+  align-self: center;  
+  font-size: 2em;
+}
+
+.title{
+  justify-content: space-between;
 }
 .App-logo {
   background-image: url('../img/logo.svg');  
@@ -17,6 +37,31 @@
   justify-content: center;  
   text-align: center;    
 }
+.search-box-wrapper{
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+}
+.list-wrapper{
+  margin-top: 2em;
+ 
+}
+.list-item{
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+    
+}
+.list-item img{
+  height: 15em;  
+}
+
+.list div{
+  margin-left: 1em;  
+  display: flex;
+  justify-content: center;
+}
+
 
 a {
   text-decoration: none;
