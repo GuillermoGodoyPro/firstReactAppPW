@@ -8,7 +8,9 @@ export const IndexPage = () => {
             <a href=" ">
                 <div className='nav-wrapper App-logo'>
                 </div>
-                <h1 className='title' >Elije tu Ropa</h1>
+                <h1 className='title' >Mi Tienda</h1>
+                <h1 className='about' >about us</h1>
+                <h1 className='carrito'>Carrito</h1>
             </a>                    
         </nav>        
         

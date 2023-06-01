@@ -17,9 +17,15 @@ h1, h2, h3, p {
   justify-content: space-around;  
 }
 .nav-div h1{   
-  margin-left: 1m;
+  margin-left: 1em;
   align-self: center;  
-  font-size: 2em;
+  font-size: 1.5em;
+}
+.carrito{
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0.4em;
+  border: 2px solid blue;
 }
 
 .title{
