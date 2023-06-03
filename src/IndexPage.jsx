@@ -9,7 +9,7 @@ export const IndexPage = () => {
                 <div className='nav-wrapper App-logo'>
                 </div>
                 <h1 className='title' >Mi Tienda</h1>
-                <h1 className='about' >about us</h1>
+                <h1 className='about' >About us</h1>
                 <h1 className='carrito'>Carrito</h1>
             </a>                    
         </nav>        
