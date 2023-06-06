@@ -32,6 +32,12 @@ export const IndexPage = () => {
                     <div>
                         <p>Remera Trols</p>
                     </div>
+                    <a href=" " className='list-item'> 
+                        <img src="https://img.freepik.com/psd-gratis/sueter-blanco-aislado-delante-detras_125540-2163.jpg?w=740&t=st=1686017466~exp=1686018066~hmac=36d8b65e1c7ca2cea708863483add78b1db49a574623ade1a016f27f5cf85102" alt="buso" />
+                    </a>
+                    <div>
+                        <p>Buso normal</p>
+                    </div>
                 </section>
             </div>
         </main>
