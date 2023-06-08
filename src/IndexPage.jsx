@@ -1,8 +1,11 @@
 import React from 'react'
 import Etiqueta from './Etiqueta'
+import RenderListas from './components/RenderListas'
 
 export const IndexPage = () => {
     let nombre = "Busos desde props"
+    const elementos = ['A','B','C','D','E','F']
+    const numeros = ['1','2','3','4','5','6']
 
     return (
         <div>
@@ -48,6 +51,11 @@ export const IndexPage = () => {
 
                             </Etiqueta>
                     </section>
+                </div>
+                <div>
+                    <p>Renderizar listas</p>
+                    <RenderListas items={elementos} ></RenderListas>
+                    <RenderListas items={numeros} ></RenderListas>
                 </div>
             </main>
             
