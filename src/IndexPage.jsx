@@ -1,6 +1,7 @@
 import React from 'react'
 import Etiqueta from './Etiqueta'
 import RenderListas from './components/RenderListas'
+import Articulo from './components/Articulo'
 
 export const IndexPage = () => {
     let nombre = "Busos desde props"
@@ -47,21 +48,37 @@ export const IndexPage = () => {
                         <a href=" " className='list-item'> 
                             <img src="https://img.freepik.com/psd-gratis/sueter-blanco-aislado-delante-detras_125540-2163.jpg?w=740&t=st=1686017466~exp=1686018066~hmac=36d8b65e1c7ca2cea708863483add78b1db49a574623ade1a016f27f5cf85102" alt="buso" />
                         </a>
-                        <div>
-                            <Etiqueta Titulo={nombre}>
-
-                            </Etiqueta>
-                            
-                        </div>
-                            <Etiqueta Descripcion="Descripción sin var">
-
-                            </Etiqueta>
+                       
                     </section>
                 </div>
                 <div>
                     <p>Renderizar listas</p>
                     <RenderListas items={elementos} ></RenderListas>
                     <RenderListas items={numeros} ></RenderListas>
+                </div>
+                
+                <div>
+                    <h2>Componente Articulo</h2>
+                    <Articulo >
+
+                    </Articulo>
+                </div>
+                <div>
+                    <h2>Componente Producto</h2>
+                    <Articulo >
+
+                    </Articulo>
+                </div>
+
+                <div>
+                    <h2>Componente Etiqueta</h2>
+                    <Etiqueta Titulo={nombre}>
+
+                    </Etiqueta>
+                    
+                    <Etiqueta Descripcion="Descripción sin var">
+
+                    </Etiqueta>
                 </div>
             </main>
             
