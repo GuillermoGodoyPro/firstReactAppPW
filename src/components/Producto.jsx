@@ -3,8 +3,8 @@
 function Producto(props){
     return(
         <div>
-            <span>{props.Nombre}</span><br/>
-            <span>{props.Categoria}</span><br/>
+            <span>Producto: {props.Nombre}</span><br/>
+            <span>Categoría: {props.Categoria}</span><br/>
         </div>    
     )
 }

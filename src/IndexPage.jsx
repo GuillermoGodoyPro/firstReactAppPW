@@ -2,6 +2,7 @@ import React from 'react'
 import Etiqueta from './Etiqueta'
 import RenderListas from './components/RenderListas'
 import Articulo from './components/Articulo'
+import Producto from './components/Producto'
 
 export const IndexPage = () => {
     let nombre = "Busos desde props"
@@ -60,24 +61,20 @@ export const IndexPage = () => {
                 <div>
                     <h2>Componente Articulo</h2>
                     <Articulo >
-
                     </Articulo>
                 </div>
                 <div>
                     <h2>Componente Producto</h2>
-                    <Articulo >
-
-                    </Articulo>
+                    <Producto Nombre='Samsung s22' Categoria='Celular' >
+                    </Producto>
                 </div>
 
                 <div>
                     <h2>Componente Etiqueta</h2>
                     <Etiqueta Titulo={nombre}>
-
                     </Etiqueta>
                     
-                    <Etiqueta Descripcion="Descripción sin var">
-
+                    <Etiqueta Descripcion="Descripción sin variable">
                     </Etiqueta>
                 </div>
             </main>

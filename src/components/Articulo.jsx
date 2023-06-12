@@ -8,8 +8,8 @@ class Articulo extends React.Component{
     render(){
         return(
             <div>
-                <span>IPhone 13</span>
-                <span>Telefono</span>
+                <span>IPhone 13</span> <br />
+                <span>Telefono</span> <br />
             </div>
         )
     }
