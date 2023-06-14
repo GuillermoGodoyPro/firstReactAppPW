@@ -8,6 +8,6 @@ export default function RenderListas(props) {
     );
 
     return (
-        <ul>{lista_items}</ul>
+        <ul type="square">{lista_items}</ul>
     )
 }
